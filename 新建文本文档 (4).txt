@@ -1,0 +1,14 @@
+GitHub官方下载安装（推荐，速度慢但不会出错）
+1.GitHub官方下载
+curl -SL https://github.com/docker/compose/releases/download/v2.17.2/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+1.要安装其他版本的 Compose，请替换 v2.17.2。
+Docker Compose和Docker版本对应关系：https://docs.docker.com/compose/compose-file/compose-file-v3/
+Docker Compose下载地址：https://github.com/docker/compose/releases
+2.赋予执行权限：sudo chmod +x /usr/local/bin/docker-compose
+3.建立软连接：sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+4.查看docker版本：docker-compose --version
+
+
+
+
+yum-config-manager --add-repo  http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
