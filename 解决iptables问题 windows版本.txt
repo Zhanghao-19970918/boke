@@ -1,0 +1,3 @@
+解决iptables问题 windows版本
+sudo modprobe ip_tables
+sudo echo 'ip_tables' >> /etc/modules
