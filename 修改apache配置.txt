@@ -1,0 +1,9 @@
+#加载PHP
+LoadModule php_module 'D:\Program Files (x86)\php8\php8apache2_4.dll'
+ 
+#将PHP配置文件加载到Apache配置文件中，共同生效
+PHPIniDir 'D:\Program Files (x86)\php8'
+ 
+#配置Apache分配工作给PHP模块，把PHP代码交给PHP处理
+#即.php后缀名的文件
+AddType application/x-httpd-php .php
