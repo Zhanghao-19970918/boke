@@ -1,0 +1,56 @@
+[
+    {
+    "tag": "IPv4_out",
+    "protocol": "freedom",
+    "settings": {}
+    },
+    {
+    "protocol": "blackhole",
+    "tag": "block"
+    },
+    {
+      "tag": "hk1",
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "agroup.node4.s.nodelist-airport.com",
+            "method": "aes-256-gcm",
+            "password": "884e3534-40ad-4f77-b884-6e806a7fc327",
+            "port": 50001
+          }
+        ]
+      }
+    },
+    {
+      "tag": "sg1",
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "agroup.node3.s.nodelist-airport.com",
+            "method": "aes-256-gcm",
+            "password": "884e3534-40ad-4f77-b884-6e806a7fc327",
+            "port": 50001
+          }
+        ]
+      }
+    },
+    {
+      "tag": "ty1",
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "agroup.node1.s.nodelist-airport.com",
+            "method": "aes-256-gcm",
+            "password": "884e3534-40ad-4f77-b884-6e806a7fc327",
+            "port": 50001
+          }
+        ]
+      }
+    }
+
+
+
+]
